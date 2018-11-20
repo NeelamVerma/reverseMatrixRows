@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5E9D13221A41A4D007B5068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9D13121A41A4D007B5068 /* AppDelegate.swift */; };
+		F5E9D13421A41A4D007B5068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9D13321A41A4D007B5068 /* ViewController.swift */; };
+		F5E9D13721A41A4D007B5068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E9D13521A41A4D007B5068 /* Main.storyboard */; };
+		F5E9D13921A41A4E007B5068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E9D13821A41A4E007B5068 /* Assets.xcassets */; };
+		F5E9D13C21A41A4E007B5068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E9D13A21A41A4E007B5068 /* LaunchScreen.storyboard */; };
+		F5E9D14721A41A4E007B5068 /* reverseMatrixRowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9D14621A41A4E007B5068 /* reverseMatrixRowsTests.swift */; };
+		F5E9D15221A41A4E007B5068 /* reverseMatrixRowsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9D15121A41A4E007B5068 /* reverseMatrixRowsUITests.swift */; };
+		F5E9D16021A41BEC007B5068 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9D15F21A41BEC007B5068 /* Matrix.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5E9D14321A41A4E007B5068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E9D12621A41A4D007B5068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E9D12D21A41A4D007B5068;
+			remoteInfo = reverseMatrixRows;
+		};
+		F5E9D14E21A41A4E007B5068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E9D12621A41A4D007B5068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E9D12D21A41A4D007B5068;
+			remoteInfo = reverseMatrixRows;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5E9D12E21A41A4D007B5068 /* reverseMatrixRows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reverseMatrixRows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E9D13121A41A4D007B5068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5E9D13321A41A4D007B5068 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5E9D13621A41A4D007B5068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E9D13821A41A4E007B5068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E9D13B21A41A4E007B5068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5E9D13D21A41A4E007B5068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E9D14221A41A4E007B5068 /* reverseMatrixRowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reverseMatrixRowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E9D14621A41A4E007B5068 /* reverseMatrixRowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseMatrixRowsTests.swift; sourceTree = "<group>"; };
+		F5E9D14821A41A4E007B5068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E9D14D21A41A4E007B5068 /* reverseMatrixRowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reverseMatrixRowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E9D15121A41A4E007B5068 /* reverseMatrixRowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseMatrixRowsUITests.swift; sourceTree = "<group>"; };
+		F5E9D15321A41A4E007B5068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E9D15F21A41BEC007B5068 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E9D12B21A41A4D007B5068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9D13F21A41A4E007B5068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9D14A21A41A4E007B5068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E9D12521A41A4D007B5068 = {
+			isa = PBXGroup;
+			children = (
+				F5E9D13021A41A4D007B5068 /* reverseMatrixRows */,
+				F5E9D14521A41A4E007B5068 /* reverseMatrixRowsTests */,
+				F5E9D15021A41A4E007B5068 /* reverseMatrixRowsUITests */,
+				F5E9D12F21A41A4D007B5068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E9D12F21A41A4D007B5068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9D12E21A41A4D007B5068 /* reverseMatrixRows.app */,
+				F5E9D14221A41A4E007B5068 /* reverseMatrixRowsTests.xctest */,
+				F5E9D14D21A41A4E007B5068 /* reverseMatrixRowsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E9D13021A41A4D007B5068 /* reverseMatrixRows */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9D13121A41A4D007B5068 /* AppDelegate.swift */,
+				F5E9D15F21A41BEC007B5068 /* Matrix.swift */,
+				F5E9D13321A41A4D007B5068 /* ViewController.swift */,
+				F5E9D13521A41A4D007B5068 /* Main.storyboard */,
+				F5E9D13821A41A4E007B5068 /* Assets.xcassets */,
+				F5E9D13A21A41A4E007B5068 /* LaunchScreen.storyboard */,
+				F5E9D13D21A41A4E007B5068 /* Info.plist */,
+			);
+			path = reverseMatrixRows;
+			sourceTree = "<group>";
+		};
+		F5E9D14521A41A4E007B5068 /* reverseMatrixRowsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9D14621A41A4E007B5068 /* reverseMatrixRowsTests.swift */,
+				F5E9D14821A41A4E007B5068 /* Info.plist */,
+			);
+			path = reverseMatrixRowsTests;
+			sourceTree = "<group>";
+		};
+		F5E9D15021A41A4E007B5068 /* reverseMatrixRowsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9D15121A41A4E007B5068 /* reverseMatrixRowsUITests.swift */,
+				F5E9D15321A41A4E007B5068 /* Info.plist */,
+			);
+			path = reverseMatrixRowsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E9D12D21A41A4D007B5068 /* reverseMatrixRows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E9D15621A41A4E007B5068 /* Build configuration list for PBXNativeTarget "reverseMatrixRows" */;
+			buildPhases = (
+				F5E9D12A21A41A4D007B5068 /* Sources */,
+				F5E9D12B21A41A4D007B5068 /* Frameworks */,
+				F5E9D12C21A41A4D007B5068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reverseMatrixRows;
+			productName = reverseMatrixRows;
+			productReference = F5E9D12E21A41A4D007B5068 /* reverseMatrixRows.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5E9D14121A41A4E007B5068 /* reverseMatrixRowsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E9D15921A41A4E007B5068 /* Build configuration list for PBXNativeTarget "reverseMatrixRowsTests" */;
+			buildPhases = (
+				F5E9D13E21A41A4E007B5068 /* Sources */,
+				F5E9D13F21A41A4E007B5068 /* Frameworks */,
+				F5E9D14021A41A4E007B5068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E9D14421A41A4E007B5068 /* PBXTargetDependency */,
+			);
+			name = reverseMatrixRowsTests;
+			productName = reverseMatrixRowsTests;
+			productReference = F5E9D14221A41A4E007B5068 /* reverseMatrixRowsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5E9D14C21A41A4E007B5068 /* reverseMatrixRowsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E9D15C21A41A4E007B5068 /* Build configuration list for PBXNativeTarget "reverseMatrixRowsUITests" */;
+			buildPhases = (
+				F5E9D14921A41A4E007B5068 /* Sources */,
+				F5E9D14A21A41A4E007B5068 /* Frameworks */,
+				F5E9D14B21A41A4E007B5068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E9D14F21A41A4E007B5068 /* PBXTargetDependency */,
+			);
+			name = reverseMatrixRowsUITests;
+			productName = reverseMatrixRowsUITests;
+			productReference = F5E9D14D21A41A4E007B5068 /* reverseMatrixRowsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E9D12621A41A4D007B5068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Neelam Verma";
+				TargetAttributes = {
+					F5E9D12D21A41A4D007B5068 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F5E9D14121A41A4E007B5068 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F5E9D12D21A41A4D007B5068;
+					};
+					F5E9D14C21A41A4E007B5068 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F5E9D12D21A41A4D007B5068;
+					};
+				};
+			};
+			buildConfigurationList = F5E9D12921A41A4D007B5068 /* Build configuration list for PBXProject "reverseMatrixRows" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5E9D12521A41A4D007B5068;
+			productRefGroup = F5E9D12F21A41A4D007B5068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E9D12D21A41A4D007B5068 /* reverseMatrixRows */,
+				F5E9D14121A41A4E007B5068 /* reverseMatrixRowsTests */,
+				F5E9D14C21A41A4E007B5068 /* reverseMatrixRowsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E9D12C21A41A4D007B5068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9D13C21A41A4E007B5068 /* LaunchScreen.storyboard in Resources */,
+				F5E9D13921A41A4E007B5068 /* Assets.xcassets in Resources */,
+				F5E9D13721A41A4D007B5068 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9D14021A41A4E007B5068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9D14B21A41A4E007B5068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E9D12A21A41A4D007B5068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9D13421A41A4D007B5068 /* ViewController.swift in Sources */,
+				F5E9D13221A41A4D007B5068 /* AppDelegate.swift in Sources */,
+				F5E9D16021A41BEC007B5068 /* Matrix.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9D13E21A41A4E007B5068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9D14721A41A4E007B5068 /* reverseMatrixRowsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E9D14921A41A4E007B5068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E9D15221A41A4E007B5068 /* reverseMatrixRowsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5E9D14421A41A4E007B5068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E9D12D21A41A4D007B5068 /* reverseMatrixRows */;
+			targetProxy = F5E9D14321A41A4E007B5068 /* PBXContainerItemProxy */;
+		};
+		F5E9D14F21A41A4E007B5068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E9D12D21A41A4D007B5068 /* reverseMatrixRows */;
+			targetProxy = F5E9D14E21A41A4E007B5068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5E9D13521A41A4D007B5068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E9D13621A41A4D007B5068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E9D13A21A41A4E007B5068 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E9D13B21A41A4E007B5068 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E9D15421A41A4E007B5068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5E9D15521A41A4E007B5068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E9D15721A41A4E007B5068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSB75F7WHY;
+				INFOPLIST_FILE = reverseMatrixRows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neelam.reverseMatrixRows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E9D15821A41A4E007B5068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSB75F7WHY;
+				INFOPLIST_FILE = reverseMatrixRows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neelam.reverseMatrixRows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5E9D15A21A41A4E007B5068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSB75F7WHY;
+				INFOPLIST_FILE = reverseMatrixRowsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neelam.reverseMatrixRowsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reverseMatrixRows.app/reverseMatrixRows";
+			};
+			name = Debug;
+		};
+		F5E9D15B21A41A4E007B5068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSB75F7WHY;
+				INFOPLIST_FILE = reverseMatrixRowsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neelam.reverseMatrixRowsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reverseMatrixRows.app/reverseMatrixRows";
+			};
+			name = Release;
+		};
+		F5E9D15D21A41A4E007B5068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSB75F7WHY;
+				INFOPLIST_FILE = reverseMatrixRowsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neelam.reverseMatrixRowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reverseMatrixRows;
+			};
+			name = Debug;
+		};
+		F5E9D15E21A41A4E007B5068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSB75F7WHY;
+				INFOPLIST_FILE = reverseMatrixRowsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neelam.reverseMatrixRowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reverseMatrixRows;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E9D12921A41A4D007B5068 /* Build configuration list for PBXProject "reverseMatrixRows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9D15421A41A4E007B5068 /* Debug */,
+				F5E9D15521A41A4E007B5068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E9D15621A41A4E007B5068 /* Build configuration list for PBXNativeTarget "reverseMatrixRows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9D15721A41A4E007B5068 /* Debug */,
+				F5E9D15821A41A4E007B5068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E9D15921A41A4E007B5068 /* Build configuration list for PBXNativeTarget "reverseMatrixRowsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9D15A21A41A4E007B5068 /* Debug */,
+				F5E9D15B21A41A4E007B5068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E9D15C21A41A4E007B5068 /* Build configuration list for PBXNativeTarget "reverseMatrixRowsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E9D15D21A41A4E007B5068 /* Debug */,
+				F5E9D15E21A41A4E007B5068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E9D12621A41A4D007B5068 /* Project object */;
+}
