@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     
     func reverseMatrixRows(mat: Matrix) -> Matrix {
         for row in 0..<mat.rows {
-            for col in 0...Int(mat.columns/2) {
+            for col in 0..<Int(mat.columns/2) {
                 let a = mat[row, col]
                 mat[row, col] = mat[row, (mat.columns - col - 1)]
                 mat[row, (mat.columns - col - 1)] = a
