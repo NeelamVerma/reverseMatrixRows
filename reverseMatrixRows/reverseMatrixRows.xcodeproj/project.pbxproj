@@ -15,6 +15,7 @@
 		F5E9D14721A41A4E007B5068 /* reverseMatrixRowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9D14621A41A4E007B5068 /* reverseMatrixRowsTests.swift */; };
 		F5E9D15221A41A4E007B5068 /* reverseMatrixRowsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9D15121A41A4E007B5068 /* reverseMatrixRowsUITests.swift */; };
 		F5E9D16021A41BEC007B5068 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9D15F21A41BEC007B5068 /* Matrix.swift */; };
+		F5E9D16221A45EF8007B5068 /* MatrixViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9D16121A45EF8007B5068 /* MatrixViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F5E9D15121A41A4E007B5068 /* reverseMatrixRowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseMatrixRowsUITests.swift; sourceTree = "<group>"; };
 		F5E9D15321A41A4E007B5068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5E9D15F21A41BEC007B5068 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		F5E9D16121A45EF8007B5068 /* MatrixViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F5E9D13121A41A4D007B5068 /* AppDelegate.swift */,
 				F5E9D15F21A41BEC007B5068 /* Matrix.swift */,
 				F5E9D13321A41A4D007B5068 /* ViewController.swift */,
+				F5E9D16121A45EF8007B5068 /* MatrixViewModel.swift */,
 				F5E9D13521A41A4D007B5068 /* Main.storyboard */,
 				F5E9D13821A41A4E007B5068 /* Assets.xcassets */,
 				F5E9D13A21A41A4E007B5068 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E9D13421A41A4D007B5068 /* ViewController.swift in Sources */,
+				F5E9D16221A45EF8007B5068 /* MatrixViewModel.swift in Sources */,
 				F5E9D13221A41A4D007B5068 /* AppDelegate.swift in Sources */,
 				F5E9D16021A41BEC007B5068 /* Matrix.swift in Sources */,
 			);

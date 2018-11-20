@@ -19,33 +19,21 @@ class ViewController: UIViewController {
     }
 
     @IBAction func reverseClickAction(_ sender: Any) {
-        guard let input = createTheInputMatrix(arrString: inputMatrixTextView.text) else {
+        guard let inputMatrix = Matrix(input: inputMatrixTextView.text) else {
             let alert = UIAlertController.init(title: "Error", message: "Invalid Matrix", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
             return
         }
-        reverseMatrixtextView.text = reverseMatrixRows(mat: input).giveMeStringToDisplay()
+        
+        // Logic Model
+        let matrixViewModel = MatrixViewModel()
+        reverseMatrixtextView.text = matrixViewModel.reverseMatrixRows(mat: inputMatrix)
     }
     
     @IBAction func resetForm(_ sender: Any) {
         inputMatrixTextView.text = ""
         reverseMatrixtextView.text = ""
-    }
-    
-    func createTheInputMatrix(arrString: String) -> Matrix? {
-        return Matrix(input: arrString)
-    }
-    
-    func reverseMatrixRows(mat: Matrix) -> Matrix {
-        for row in 0..<mat.rows {
-            for col in 0..<Int(mat.columns/2) {
-                let a = mat[row, col]
-                mat[row, col] = mat[row, (mat.columns - col - 1)]
-                mat[row, (mat.columns - col - 1)] = a
-            }
-        }
-        return mat
     }
 }
 
